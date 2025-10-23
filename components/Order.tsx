@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 const Order: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const googleFormUrl = "https://forms.gle/YourActualGoogleFormID";
+  const googleFormUrl = "https://legalchicks.github.io/orders/";
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
